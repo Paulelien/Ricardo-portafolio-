@@ -1,2 +1,0 @@
-# Ricardo-portafolio-
-# Ricardo-portafolio-

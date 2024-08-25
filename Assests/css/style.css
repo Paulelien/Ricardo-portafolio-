@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: #f0f2f5; /* Color de fondo */
+    background-image: url(./fondo.jpg); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Fija la imagen al fondo de la ventana */
+    
+
+
+#intro {
+    text-align: center;
+}
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#additionalInfo {
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #007bff; /* Color de fondo de la barra de navegación */
+    padding: 10px 0;
+    text-align: center center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los ítems de la barra de navegación */
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    text-align: center;
+}
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    background-color: #0056b3; /* Color de fondo al hacer hover */
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 30px
+    auto;
+}
+
+h1, h2 {
+    text-align: center;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+.antecedentes {
+    margin-top: 15px;
+}
+
+/* Estilos para separar la sección de antecedentes */
+.antecedentes-contenedor {
+    margin-top: 30px;
+    padding: 40px;
+    border: 1px solid #ccc; /* Borde opcional */
+    background-color: #e9e0e0b6; /* Fondo opcional */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    text-align: center;
+    
+}
+
+/* Estilo para la imagen */
+.foto {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.foto-perfil {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Redondea los bordes de la imagen para que parezca circular */
+}
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        margin-bottom: 10px;
+    }
+
+    .foto-perfil {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contenedor {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar ul li {
+        margin-bottom: 8px;
+    }
+
+    .foto-perfil {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contenedor {
+        padding: 5px;
+    }
+}
